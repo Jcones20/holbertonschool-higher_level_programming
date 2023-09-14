@@ -2,12 +2,12 @@
 
 
 def safe_print_list(my_list=[], x=0):
-    j = 0
+    i = 0
     try:
-        while j is not x:
+        while i is not x:
             print(my_list[i], end='')
-            j += 1
+            i += 1
     except IndexError:
         None
     print()
-    return j
+    return i
