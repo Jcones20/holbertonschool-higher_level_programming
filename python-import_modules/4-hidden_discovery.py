@@ -1,10 +1,7 @@
-#/user/bin/python3
-
-if _name_ == "_main_":
-    """print alll names defined by hidden 4 module."""
+#!/usr/bin/python3
+if __name__ = "__main__":
+    import sys
     import hidden_4
-
-    names = dir(hidden_4)
-    for name in names:
-        if name[:2] !+ ":
-        print(name)
+    for n in dir(hidden_4):
+        if n[:2] != "__":
+            print(n)
