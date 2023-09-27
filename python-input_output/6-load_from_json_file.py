@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""save_to_json_file module.
+"""save_to_json_file class.
 
 Contains a function that creates an Object from a “JSON file”.
 """
