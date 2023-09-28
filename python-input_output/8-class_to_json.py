@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""class_to_json module.
+"""class_to_json file.
 
 Contains a function that returns a dictionary.
 """
